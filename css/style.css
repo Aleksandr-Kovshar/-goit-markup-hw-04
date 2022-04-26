@@ -118,9 +118,19 @@ nav {
   color: var(--main-color);
   text-decoration: none;
 }
-
-.link-icon-envelope, .link-icon-smartphone{
+.link-icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
   fill: #757575;
+}
+
+.link-icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+  
 }
 
 .link-icon-smartphone:hover,
@@ -457,17 +467,7 @@ img {
   align-items: center;
 }
 
-.link-icon-envelope{
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
 
-.link-icon-smartphone{
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-}
 
 .advantages-svg{
   display: flex;
