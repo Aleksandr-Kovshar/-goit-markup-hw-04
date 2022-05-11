@@ -35,10 +35,18 @@
           </ul>
         </nav>
         <div class="contacts-list">
-          <a class="contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="contacts" href="tel:++380961111111">+38 096 111 11 11</a>
+          <a class="contacts" href="mailto:info@devstudio.com">
+            <svg class="link-icon-envelope">
+              <use href="./images/svg/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a class="contacts" href="tel:++380961111111">
+            <svg class="link-icon-smartphone">
+              <use href="./images/svg/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11
+          </a>
         </div>
       </div>
     </header>
@@ -180,18 +188,63 @@
     </main>
     <footer class="footer-page">
       <div class="container footer-container">
-        <a class="logo logo-footer" href="./"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
-        <address class="address-list">
-          <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="footer-contacts" href="mailto:info@example.com"
-            >info@example.com</a
+        <div class="address-container">
+          <a class="logo logo-footer" href="./"
+            ><span class="logo-accent">Web</span>Studio</a
           >
-          <a class="footer-contacts" href="tel:++380991111111"
-            >+38 099 111 11 11</a
-          >
-        </address>
+          <address class="address-list">
+            <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="footer-contacts" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <a class="footer-contacts" href="tel:++380991111111"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </div>
+        <div class="social-footer">
+          <p class="social-footer-contents">присоединяйтесь</p>
+          <div class="social-footer-container">
+            <ul class="social-footer-list">
+              <li class="social-footer-item">
+                <a class="social-footer-link" href="">
+                  <svg class="social-footer-svg">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-instagram-2"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-footer-item">
+                <a class="social-footer-link" href="">
+                  <svg class="social-footer-svg">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-twitter-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-footer-item">
+                <a class="social-footer-link" href="">
+                  <svg class="social-footer-svg">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-facebook-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-footer-item">
+                <a class="social-footer-link" href="">
+                  <svg class="social-footer-svg">
+                    <use
+                      href="./images/svg/symbol-defs.svg#icon-linkedin-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
